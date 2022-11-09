@@ -59,7 +59,7 @@ export default function Mars(){
         .then((data) => {
            setMarsData(data.photos)
            setMarsImages(data.photos.map( item => item.img_src))
-        });
+        }).catch(err => console.error(err));
     }, [])
     
     function handleClick(){
