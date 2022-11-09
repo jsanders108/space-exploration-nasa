@@ -99,7 +99,7 @@ export default function Home(){
         .then((response) => response.json())
         .then((data) => {
             setPicOfDay(data)
-        });
+        }).catch(err => console.error(err))
     }, [])
     
    
@@ -129,7 +129,7 @@ export default function Home(){
             const randomNum = Math.floor(Math.random() * 100) 
             setSearchImage(data.collection.items[randomNum])
             setSearchTerm("")
-        });
+        }).catch(err => console.error(err))
     }
    
     const searchImageIsEmpty = Object.keys(searchImage).length === 0;
