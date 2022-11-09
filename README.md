@@ -1,1 +1,1 @@
-# space-exploration-nasa
+I created a React App (with Styled Components and React Router) that pings Nasa's API to return the "Picture of the Day". Also, users can enter a search term which queries Nasa's photo database to return a random picture. Finally, on the Mars Page, users can click a button to fetch (via API) a random picture taken by the Mars Rover. The site is optimized for both mobile and desktop browsers (via media queries).
