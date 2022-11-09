@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.home-link, .mars-link {
+    color: white;
+    text-decoration: none;
+    margin-left: 30px; 
+}
+
+.home-link:hover,
+.home-link:focus, 
+.mars-link:hover,
+.mars-link:focus {
+    color: #82a5ca;
+}
+
+.bold {
+    font-weight: bold; 
+}
